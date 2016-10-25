@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="col-md-8 col-md-offset-3">
+  <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+      <li> <a href="http://localhost:5000">Início</a></li>      
+      <li> <a href="http://localhost:5000/teste/verifica1">Módulo I</a></li>
+      <li> <a href="http://localhost:5000/teste/verifica2">Módulo II</a></li>
+      <li> <a href="http://localhost:5000/progresso">Progresso</a></li>
+    </ul> 
+  </nav>
+</div>
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 class="text-muted">Sistema de treinamento baseado em computador
+        </h2>        
+        <h3 class="text-primary col-xs-4"> Questão {{num}} </h3>        
+        <div class="row"></div>          
+      </div>                   
+      <div class="row">        
+          <div class="col-md-4"><br>
+              {{enunciado}} 
+          </div>        
+            <div class="col-md-4">
+            <form method="POST" action="http://localhost:5000/teste/">
+                <div class="radio col-md-10">
+                  <label>                   
+                    {% if resposta|string() == aux1 and respostaUsuario|string() == aux1 %}
+                    <input type="radio" checked name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue"> {{opcao1}} </span>                 
+
+                    {% elif respostaUsuario|string() == aux1|string() and resposta|string() != aux1 %}
+                    <input type="radio" checked name="optionsRadios" id="b" value=2 disabled>
+                    <span style="color: red"> {{opcao1}} </span>
+
+                    {% elif reposta|string() == aux1 %}
+                    <input type="radio" name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue"> {{opcao1}} </span>         
+
+                    {% elif resposta|string() == aux1 and respostaUsuario|string() != aux1%}        
+                    <input type="radio"  name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue"> {{opcao1}} </span>                 
+
+                    {% else %}
+                    <input type="radio" name="optionsRadios" id="b" value=2 disabled>                    
+                    <span > {{opcao1}}  </span>
+                    {% endif %}
+                    
+                  </label>
+                </div>
+                <div class="radio col-md-8">
+                  <label>                   
+                    {% if resposta|string() == aux2 and respostaUsuario|string() == aux2 %}
+                    <input type="radio" checked name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue">kkk {{opcao2}} </span>                 
+
+                    {% elif respostaUsuario|string() == aux2|string() and resposta|string() != aux2 %}
+                    <input type="radio" checked name="optionsRadios" id="b" value=2 disabled>
+                    <span style="color: red"> {{opcao2}} </span>
+
+                    {% elif reposta|string() == aux2 %}
+                    <input type="radio" name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue">{{opcao2}} </span>                 
+
+                    {% elif resposta|string() == aux2 and respostaUsuario|string() != aux2 %}        
+                    <input type="radio"  name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue"> {{opcao2}} </span>                 
+
+                    {% else %}
+                    <input type="radio" name="optionsRadios" id="b" value=2 disabled>                    
+                    <span > {{opcao2}}  </span>
+                    {% endif %}
+                    
+                  </label>
+                </div>
+                <div class="radio col-md-8">
+                  <label>                   
+                    {% if resposta|string() == aux3 and respostaUsuario|string() == aux3 %}
+                    <input type="radio" checked name="optionsRadios" id="c" value=2 disabled>                    
+                    <span style="color: blue">{{opcao3}} </span>                 
+
+                    {% elif respostaUsuario|string() == aux3|string() and resposta|string() != aux3 %}
+                    <input type="radio" checked name="optionsRadios" id="c" value=2 disabled>
+                    <span style="color: red"> {{opcao3}} </span>
+
+                    {% elif reposta|string() == aux3 %}
+                    <input type="radio" name="optionsRadios" id="c" value=2 disabled>                    
+                    <span style="color: blue">{{opcao3}} </span>                 
+
+                    {% elif resposta|string() == aux3 and respostaUsuario|string() != aux3%}        
+                    <input type="radio"  name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue"> {{opcao3}} </span>                 
+
+                    {% else %}
+                    <input type="radio" name="optionsRadios" id="b" value=2 disabled>                    
+                    <span > {{opcao3}}  </span>
+                    {% endif %}
+                    
+                  </label>
+                </div>
+                <div class="radio col-md-8">
+                  <label>                   
+                    {% if resposta|string() == aux4 and respostaUsuario|string() == aux4 %}
+                    <input type="radio" checked name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue">kkk {{opcao4}} </span>                 
+
+                    {% elif respostaUsuario|string() == aux4|string() and resposta|string() != aux4 %}
+                    <input type="radio" checked name="optionsRadios" id="b" value=2 disabled>
+                    <span style="color: red"> {{opcao4}} </span>
+
+                    {% elif reposta|string() == aux4 %}
+                    <input type="radio" name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue">kkk {{opcao4}} </span>                 
+
+                    {% elif resposta|string() == aux4 and respostaUsuario|string() != aux4%}        
+                    <input type="radio"  name="optionsRadios" id="b" value=2 disabled>                    
+                    <span style="color: blue"> {{opcao4}} </span>                 
+
+                    {% else %}
+                    <input type="radio" name="optionsRadios" id="b" value=2 disabled>                    
+                    <span > {{opcao4}}  </span>
+                    {% endif %}
+                    
+                  </label>
+                </div>                
+                  <input type="submit" class="btn btn-primary col-md-5 col-md-offset-2" value="Próxima questão" />
+                </form>                              
+            </div>          
+      </div>
+    </div>
+  </body>
+</html>

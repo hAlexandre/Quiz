@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="col-md-8 col-md-offset-3">
+  <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+      <li> <a href="http://localhost:5000">Início</a></li>      
+      <li> <a href="http://localhost:5000/teste/verifica1">Módulo I</a></li>
+      <li> <a href="http://localhost:5000/teste/verifica2">Módulo II</a></li>
+      <li> <a href="http://localhost:5000/progresso">Progresso</a></li>
+    </ul> 
+  </nav>
+</div>
+  <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 class="text-muted">Sistema de treinamento baseado em computador</h2>
+        <h3 class="text-primary col-xs-4"> Questão {{num}} </h3>        
+        <div class="row"></div>          
+      </div>                   
+      <div class="row">        
+          <div class="col-md-4"><br>
+              {{enunciado}}
+          </div>        
+            <div class="col-md-4">
+            <form method="POST" action="http://localhost:5000/teste/correcao{{indice}}">
+                <div class="radio col-md-10">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="a" value="1">
+                    {{opcao1}}
+                  </label>
+                </div>
+                <div class="radio col-md-8">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="b" value="2">
+                    {{opcao2}}
+                  </label>
+                </div>
+                <div class="radio col-md-8">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="c" value="3">
+                    {{opcao3}}
+                  </label>
+                </div>
+                <div class="radio col-md-8">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="d" value="4">
+                    {{opcao4}}                    
+                  </label>
+                </div>                
+                  <input type="submit" class="btn btn-primary col-md-3 col-md-offset-2" value="Confirmar" />
+                </form>                              
+            </div>          
+      </div>
+    </div>
+  </body>
+</html>

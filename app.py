@@ -26,14 +26,14 @@ class Pergunta:
 
 
 informacoes = []
-#informacoes.append('equQWEASDUhAWEdwasdXCZX aqui fala sobre drones naanananananaanaannananananana')
 
 perguntas = []
 
 # MODULO I
 
-perguntas.append(Pergunta(0,'Textoquestao1',
-  0,1,1,1,1,0,0))
+perguntas.append(Pergunta(0,
+  '<h3>Introdução</h3>Este texto é um guia para conduzir com segurança trabalho no campo de jornalismo com drone. Ele leva em conta os regulamentos de drones atuais da América, a nossa compreensão da aceitação do público de drones, o estado das tecnologias de drones, e nossas próprias experiências.<br /><br /> O objetivo número um de qualquer operação de jornalismo drone é a segurança. Em nenhum momento esta deverá ser comprometida. Se houver qualquer dúvida, voltar o zumbido, também conhecido como um sistema aéreo não tripulado (UAS), para a zona de aterragem e encerrar o voo.<br /><br /> Jornalismo ético é jornalismo responsável, e que arvore um drone significa assumir a responsabilidade pela segurança das pessoas perto de você, na terra e no ar.<br /><br /> Os três papeis operacionais de voo definidos no Manual de Operações Lab jornalismo drone são piloto em comando (PIC), Observador, e jornalista. Um indivíduo pode encher todos os três papéis, que são definidos a seguir:<br /><br /> O piloto em comando: O PIC é responsável por todas as operações de voo. É o PIC que tem a autoridade máxima em qualquer voo. O PIC determina se a aeronave é de navegabilidade e capaz de conduzir as operações propostas. O PIC é responsável por determinar se o espaço aéreo permite a operação proposta. O PIC é responsável pelas operações dentro de todos os regulamentos da FAA e quaisquer restrições estabelecidas por uma concessão da isenção condução. O PIC é responsável por briefing os outros membros da tripulação de voo sobre qual é a missão, os seus papéis e responsabilidades são, e o que se espera deles antes, durante e após as operações de voo.<br /><br /> NOTA: O piloto em comando, segurando o FAA emitida Parte 107 certificado, é por regulamento a autoridade final sobre se a aeronave fls ou não. Se ocorrer um acidente, é titular certificado da Parte 107, que será responsabilizado. Como tal, os gerentes de notícias deve aceitar o piloto na decisão de comando final sobre a segurança do voo.<br /><br /> O observador: O observador é responsável por monitorar a área operacional para garantir que não há riscos que podem pôr em perigo o voo ou pessoas que não fazem parte da equipe de Introdução de voo dos UAS. O Observador é o único membro da equipe que pode falar com o PIC durante as operações de voo. O Observador deve alertar o PIC imediatamente se qualquer aeronave entrar na área, ou se qualquer pessoa ou veículo se aproxima da operação. The Observador deve permanecer dentro da distância de falar do PIC. Não use rádios para se comunicar.<br /><br /> O Jornalista: o jornalista é responsável por comunicar metas de FL para o PIC antes do voo e verificar os resultados após o desembarque. O jornalista determina o que é necessário para a história e comunica que a PIC. O PIC é responsável por determinar se os objetivos do jornalista são possíveis sob as condições apresentadas. Durante voo, o PIC pode pedir feedback do Jornalista, mas o jornalista só deve falar com o piloto, se perguntou, enquanto a aeronave estiver no ar. O jornalista pode atuar como observador.<br /><br /> Nos termos da Parte 107, as operações podem ocorrer com apenas um PIC. Se nenhum pessoal adicional está disponível para o voo, cuidado e consideração deve ser levado para a carga de trabalho adicional que o PIC vai assumir, incluindo ter que assistir a área de operação para os perigos, completando objetivos jornalísticos e garantindo a segurança do voo.<br /><br /> NOTA: Quanto maior o número de variáveis ambientais (espectadores, estruturas, árvores, vento, etc.) em um ambiente operacional, os mais substanciais as demandas estão na PIC.',
+    0,1,1,1,1,0,0))
 
 
 perguntas.append(Pergunta(1,'Tendo em mente o objetivo numero um do jornalismo com drone, o qual procedimento deve ser tomado, caso o mesmo seja quebrado?',
@@ -70,8 +70,8 @@ perguntas.append(Pergunta (5,
 
   #MODULO II
 perguntas.append(Pergunta (0,
-  'Uma operação de sistema aéreo não tripulado (sigla em inglês UAS) profissional é aquele que envolve um planejamento cuidadoso e premeditação. Antes de embarcar em utilizar drones para fazer jornalismo, pilotos e as organizações devem tomar várias medidas. Em primeiro lugar, o piloto deve prática com o avião a ser utilizado. Seu primeiro vôo com o avião não deve ser para uma história. Familiarização com a plataforma é essencial. organizações de notícias que querem usar drones deve falar com a polícia e bombeiros locais bem antes quebras de notícias, alertando-os de futuras usando drones de coleta de notícias. Os procedimentos operacionais gerais para voos de drones são divididos em seções: Pré-viagem, Pré-vôo, vôo, e pós-vôo. Os requisitos gerais de cada um são encapsulado em listas de verificação projetadas para ajudar a garantir que cada passo é realizado. As seções e o raciocínio por trás deles, são descritos aqui:Pré-viagem Antes de empreender qualquer operação voo, o piloto em comando deve reunir informações sobre a área de voo proposta para garantir a segurança das operações que cumprem com os Regulamentos Federal de Aviação. Localização Perguntas o PIC deve responder sobre o local são: * O que é aquilo? Existem riscos para a aviação? * O espaço aéreo está? * Você precisa da permissão de controlo de tráfego aéreo (ATC)?'
-  ,1,1,1,1,1,0,0))
+  'Uma operação de sistema aéreo não tripulado (sigla em inglês UAS) profissional é aquele que envolve um planejamento cuidadoso e premeditação. Antes de embarcar em utilizar drones para fazer jornalismo, pilotos e as organizações devem tomar várias medidas. Em primeiro lugar, o piloto deve prática com o avião a ser utilizado. Seu primeiro vôo com o avião não deve ser para uma história. Familiarização com a plataforma é essencial. organizações de notícias que querem usar drones deve falar com a polícia e bombeiros locais bem antes quebras de notícias, alertando-os de futuras usando drones de coleta de notícias.<br /><br /> Os procedimentos operacionais gerais para voos de drones são divididos em seções: Pré-viagem, Pré-vôo, vôo, e pós-vôo. Os requisitos gerais de cada um são encapsulado em listas de verificação projetadas para ajudar a garantir que cada passo é realizado. As seções e o raciocínio por trás deles, são descritos aqui:<br /><br /><b>Pré-viagem</b><br /><br /> Antes de empreender qualquer operação voo, o piloto em comando deve reunir informações sobre a área de voo proposta para garantir a segurança das operações que cumprem com os Regulamentos Federal de Aviação.<br /><br /><b> Localização </b>Perguntas o PIC deve responder sobre o local são: <br /><br />-> O que é aquilo? Existem riscos para a aviação? <br /><br />-> O espaço aéreo está? <br /><br />-> Você precisa da permissão de controlo de tráfego aéreo (ATC)? <br /><br /><b>Instruções</b> O PIC é responsável pela instrução de todo o pessoal de operações em cada fase da voar. O PIC irá designar o observador e o jornalista, vai explicar a sua papéis e o que vai acontecer durante o vôo. Uma reunião PIC deve abranger, no mínimo:<br /><br /> -> Quem está cumprindo cada função em operações de voo.<br /><br /> -> As expectativas de cada membro da tripulação de voo.<br /><br /> -> Uma descrição geral da área de operações.<br /><br /> -> O tempo previsto para o local.<br /><br /> -> Quaisquer perigos conhecidos, incluindo ventos, obstáculos, áreas de alto tráfego conhecidas, nenhum os aeroportos mais próximos ou de tráfego aéreo esperado.<br /><br /> -> Os objetivos da missão específicas, incluindo fotos esperados, ângulos ou assuntos.<br /><br /> -> Qualquer privacidade conhecido ou questões éticas e as medidas paliativas.<br /> '
+   ,1,1,1,1,1,0,0))
 
 perguntas.append(Pergunta(1,
   'Marque a alternativa incorreta:',
@@ -112,7 +112,7 @@ perguntas.append(Pergunta(5, 'Em uma reunião de pré-viagem o PIC deve abortar 
 
 #MÓDULO III
 perguntas.append(Pergunta (0,
-  'Pré voo Operações pré-voo é feito imediatamente antes de qualquer trabalho de vôo é para ocorrer. O Lista de verificação pré-vôo repete algumas da lista de verificação pré-viagem, como inspecionar o aeronaves e algumas das superfícies de controlo. inspeções pré-viagem e pré-vôo ajudar assegurar a aeronavegabilidade e vai servir como um alerta tanto para a manutenção e questões de procurar problemas mecânicos que poderiam substancialmente afetar ou cancelar vôo. As regras gerais de pré-vôo são: * O PIC toca as UAS. O PIC é responsável pela aeronave e todos Ao redor deles. Assim, o PIC vai realizar a inspeção pré-vôo, conectar as pilhas, etc. * Quando no local, o pessoal de operações deve delinear uma decolagem e pouso área de pelo menos 10 pés x 10 pés e garantir que ele está livre de detritos. * Quando no local, se não as operações de pessoas estão ao redor, o pessoal de operações pode ser necessária para garantir uma área a ser mantido livre de pessoas de modo a UEA pode operam sem voar sobre as pessoas. Esse lugar pode ser a decolagem e pouso zona. Esse espaço, para permanecer livre de pessoas, deve ser tão grande como o PIC acha que é prático. * O tempo pode ser muito localizadas. Quando você chegar, você deve verificar o seu clima local contra o relatório do tempo que você tem de um briefing de voo ou serviço de observação automatizada. tectos nuvem será mais difícil estimar no local, para ser razoável. Se as nuvens olhar baixo, fique baixa. Não voe se nevoeiro está presente. * As condições de vento também variam conforme a localidade. Um anemômetro é uma ferramenta valiosa para medição de vento no local, informando o PIC, se a velocidade do vento estão dentro limites operacionais e de como elas podem afetar as operações de voo. * Desligue a conectividade WiFi em qualquer UAS dispositivos montados, como câmeras. dispositivos WiFi ativos na UAS pode interferir com RC crítica 2,4 GHz e transmissões de vídeo. Porque a maioria dos sistemas UAS não militares usar 2.4GHz tanto para transmissão de vídeo RC ou, só permitem WiFi se você estiver certo lá haverá interferência com o seu hardware UAS. * Antes da decolagem, certifique-se a sua bússola não está a receber interferências de objetos metálicos nas proximidades, e que você tem conexões de satélite GPS suficientes. Voo A lista de verificação de vôo não é realmente uma lista de verificação. É uma lista afazeres. É listado como um lembrete. operadores de UAV devem: * Constantemente analisando o tráfego por via aérea ou obstáculos. O observador deve comunicá-los imediatamente. * Constantemente analisando as pessoas no chão na área de vôo. O observador deve comunicá-los imediatamente. * Verificando constantemente os níveis de bateria e voltando antes de atingir 25 por cento da capacidade restante. * Constantemente verificando parâmetros de vôo, como altitude para garantir que eles permaneçam dentro de restrições e objetivos operacionais.Na troca de bateria, e as mudanças de bateria única, se o PIC, Observer e Jornalista discutir mudanças no plano operacional. Enquanto a UEA está em vôo, o PIC precisa se concentrar em voar, e o observador precisa de se concentrar sobre os perigos.'  ,
+  '<b>Pré voo </b><br /><br />Operações pré-voo é feito imediatamente antes de qualquer trabalho de vôo é para ocorrer. O Lista de verificação pré-vôo repete algumas da lista de verificação pré-viagem, como inspecionar o aeronaves e algumas das superfícies de controlo. inspeções pré-viagem e pré-vôo ajudar assegurar a aeronavegabilidade e vai servir como um alerta tanto para a manutenção e questões de procurar problemas mecânicos que poderiam substancialmente afetar ou cancelar vôo.<br /><br /> As regras gerais de pré-vôo são:<br /><br /> -> O PIC toca as UAS. O PIC é responsável pela aeronave e todos Ao redor deles. Assim, o PIC vai realizar a inspeção pré-vôo, conectar as pilhas, etc.<br /><br /> -> Quando no local, o pessoal de operações deve delinear uma decolagem e pouso área de pelo menos 10 pés x 10 pés e garantir que ele está livre de detritos. <br /><br /> -> Quando no local, se não as operações de pessoas estão ao redor, o pessoal de operações pode ser necessária para garantir uma área a ser mantido livre de pessoas de modo a UEA pode operam sem voar sobre as pessoas. Esse lugar pode ser a decolagem e pouso zona. Esse espaço, para permanecer livre de pessoas, deve ser tão grande como o PIC acha que é prático. <br /><br /> -> O tempo pode ser muito localizadas. Quando você chegar, você deve verificar o seu clima local contra o relatório do tempo que você tem de um briefing de voo ou serviço de observação automatizada. tectos nuvem será mais difícil estimar no local, para ser razoável. Se as nuvens olhar baixo, fique baixa. Não voe se nevoeiro está presente. <br /><br /> -> As condições de vento também variam conforme a localidade. Um anemômetro é uma ferramenta valiosa para medição de vento no local, informando o PIC, se a velocidade do vento estão dentro limites operacionais e de como elas podem afetar as operações de voo.<br /><br /> -> Desligue a conectividade WiFi em qualquer UAS dispositivos montados, como câmeras. dispositivos WiFi ativos na UAS pode interferir com RC crítica 2,4 GHz e transmissões de vídeo. Porque a maioria dos sistemas UAS não militares usar 2.4GHz tanto para transmissão de vídeo RC ou, só permitem WiFi se você estiver certo lá haverá interferência com o seu hardware UAS.<br /><br /> -> Antes da decolagem, certifique-se a sua bússola não está a receber interferências de objetos metálicos nas proximidades, e que você tem conexões de satélite GPS suficientes.<br /><br /> <b>Voo</b> <br /><br />A lista de verificação de vôo não é realmente uma lista de verificação. É uma lista afazeres. É listado como um lembrete. operadores de UAV devem:<br /><br /> -> Constantemente analisando o tráfego por via aérea ou obstáculos. O observador deve comunicá-los imediatamente. <br /><br /> -> Constantemente analisando as pessoas no chão na área de vôo. O observador deve comunicá-los imediatamente. <br /><br /> -> Verificando constantemente os níveis de bateria e voltando antes de atingir 25 por cento da capacidade restante. <br /><br /> -> Constantemente verificando parâmetros de vôo, como altitude para garantir que eles permaneçam dentro de restrições e objetivos operacionais.Na troca de bateria, e as mudanças de bateria única, se o PIC, Observer e Jornalista discutir mudanças no plano operacional. Enquanto a UEA está em vôo, o PIC precisa se concentrar em voar, e o observador precisa de se concentrar sobre os perigos.'  ,
     1,1,1,1,1,0,0))
 
 perguntas.append(Pergunta(1,
@@ -155,7 +155,7 @@ perguntas.append(Pergunta(5, 'Antes da decolagem, certifique-se a sua _________ 
 
 #MÓDULOIV
 perguntas.append(Pergunta (0,
-  'MOD4 Pós voo A lista de verificação pós-voo de é dividida em três partes: Desligar o zumbido, que é feito pelo PIC; inspecionar a aeronave; e preencher os registros. Registrar é uma parte importante da segurança da aviação e servirá como um documento importante na manutenção do seu UAS. Registro Operações UAS pode ser dividida em três registos separados, em grande parte transportados ao longo da aviação tripulada. Eles são um registro de manutenção, um log da bateria, e um registro de vôo. Registro de manutenção Um registo de manutenção é uma simples lista de questões a ser marcado ou fixado entre voos. PICs devem observar qualquer questão que deve ser verificado, a partir de uma oscilação estranha, som incomum, um motor excepcionalmente quente no pouso, a falha de um componente completo. O registro deve incluir a data, UAS Make & Model, UAS número de registo, o número de identificação da bateria usada quando o problema ocorreu, o problema, que relataram que, a data reparado, que consertou e notas Registro de bateria Um log da bateria serve como um aviso para quando a bateria está ficando desgastada e poderá falhar. baterias UAS degradará, dando progressivamente menos tempo de voo. baterias que vão não utilizados e não são descarregadas mais de uma semana também pode levar a células de bateria danificados totalmente carregada. Um log da bateria irá destacar falhando baterias, e dar o PIC um guia de quanto tempo a bateria vai dar em voo. Um log da bateria deve anotar a data, UAS marca e modelo, número de registo UAS, o número de cargas anteriores, a percentagem de carga restante da bateria durante o desligamento, o tempo total de vôo, taxa de esgotamento da bateria, quaisquer sinais de puffing (um indicador de que a bateria é danificado), e condições de uso. Por exemplo, se você colocou um DJI Inspire com um equipamento de câmera de vídeo de 360 contendo seis câmeras GoPros, e voou sobre uma F 100 °, você faria nota das condições de operação.Registro de voo Um registro de vôo irá destacar os eventos importantes que ocorrem a partir do momento que um UAS decola ao tempo que aterrou e foi desligado pelo PIC. Cada UAS terá seu próprio log. Ele deve anotar a data, a bateria utilizada durante o voo, e o tempo total de vôo. Cada entrada também deve ter espaço para anotações importantes e relevantes sobre o voo, que pode incluir uma visão geral da missão, condições de voo, distância de voo, possui, take-off locais e aterragem, um pouso forçado, etc.',
+  '<b>Pós voo </b><br /><br />A lista de verificação pós-voo de é dividida em três partes: Desligar o zumbido, que é feito pelo PIC; inspecionar a aeronave; e preencher os registros. Registrar é uma parte importante da segurança da aviação e servirá como um documento importante na manutenção do seu UAS.<br /><br /> <b> Registro </b><br /><br />Operações UAS pode ser dividida em três registos separados, em grande parte transportados ao longo da aviação tripulada. Eles são um registro de manutenção, um log da bateria, e um registro de vôo.<br /><br /><b> Registro de manutenção</b><br /><br /> Um registo de manutenção é uma simples lista de questões a ser marcado ou fixado entre voos. PICs devem observar qualquer questão que deve ser verificado, a partir de uma oscilação estranha, som incomum, um motor excepcionalmente quente no pouso, a falha de um componente completo. O registro deve incluir a data, UAS Make & Model, UAS número de registo, o número de identificação da bateria usada quando o problema ocorreu, o problema, que relataram que, a data reparado, que consertou e notas.<br /><br /><b> Registro de bateria </b><br /><br />Um log da bateria serve como um aviso para quando a bateria está ficando desgastada e poderá falhar. baterias UAS degradará, dando progressivamente menos tempo de voo. baterias que vão não utilizados e não são descarregadas mais de uma semana também pode levar a células de bateria danificados totalmente carregada. Um log da bateria irá destacar falhando baterias, e dar o PIC um guia de quanto tempo a bateria vai dar em voo. Um log da bateria deve anotar a data, UAS marca e modelo, número de registo UAS, o número de cargas anteriores, a percentagem de carga restante da bateria durante o desligamento, o tempo total de vôo, taxa de esgotamento da bateria, quaisquer sinais de puffing (um indicador de que a bateria é danificado), e condições de uso. Por exemplo, se você colocou um DJI Inspire com um equipamento de câmera de vídeo de 360 contendo seis câmeras GoPros, e voou sobre uma F 100 °, você faria nota das condições de operação.<br /><br /><b>Registro de voo</b><br /><br /> Um registro de vôo irá destacar os eventos importantes que ocorrem a partir do momento que um UAS decola ao tempo que aterrou e foi desligado pelo PIC. Cada UAS terá seu próprio log. Ele deve anotar a data, a bateria utilizada durante o voo, e o tempo total de vôo. Cada entrada também deve ter espaço para anotações importantes e relevantes sobre o voo, que pode incluir uma visão geral da missão, condições de voo, distância de voo, possui, take-off locais e aterragem, um pouso forçado, etc.',
     1,1,1,1,1,0,0))
 
 perguntas.append(Pergunta(1,
@@ -200,18 +200,66 @@ perguntas.append(Pergunta(5,
   4,1,1
   ))
 
+#MODULOV
+perguntas.append(Pergunta (0,
+  '<h3>Procedimentos de Emergência</h3><br /><br /><b>Perda de Sinal/Missão Procedimento</b><br /><br /> Diretrizes Operacionais Gerais: O Sinal RC é para o PIC para controlar diretamente a aeronave. Se o PIC permite que os UAS para operar de forma autônoma e automatizada funcionalidade vôo está perdido, o drone irá reverter para o controle RC e o PIC tomará controle, devolvê-lo para a zona de aterragem e de terras. Se a UEA começa a mostrar qualquer assinatura de não seguir a trajetória de voo automático, e o comando manual não acontecer automaticamente, o PIC deve tomar as medidas necessárias para o manual ao controle. Consulte o manual do UAS para saber como substituir manualmente autónoma operação. Se a ligação é perdida RC, muitos sistemas comerciais são baseados UAS configurada com um retorno automático ao procedimento de casa built-in para o voo de UAS controlador para impedir a dispersão fora da área de operação.<br /><br /><b> Suposição de controle emergência</b><br /><br /> Durante todo o vôo automatizado, se há alguma preocupação de que a UEA não está voando a missão planejada ou que controlam características são anormais, o PIC vai demorar controle manual dos UAS com controle RC, devolvê-lo para a zona de desembarque, se possível, e pousa-lo. Pode haver problemas menores que não requerem pressuposto de emergência de controle. Nestes casos, a comunicação pode GCS dirigir o UAS de desembarque ou o PIC pode pousar manualmente a UEA.<br /><br /><b> Perda da Visão</b><br /><br /> Os regulamentos exigem que os UAS permanecer dentro Visual Line of Sight (VLOS) em tudo casos. Se, que VLOS está quebrado, o PIC deve retornar ao VLOS imediatamente se possível. Se PIC não pode retornar UAS para VLOS, usando o GCS, o PIC deve executar um percurso de voo pré-programado para retornar à zona de pouso.<br /><br /><b> Outros voos Emergências</b><br /><br /> Na maioria das situações de emergência, o protocolo geral é a terra o mais rápido e seguramente prático. Em muitas situações de emergência, o desembarque no patamar pré-determinado zona não será possível. O objetivo é um ambiente controlado, aterragem segura.    <br /><br /> ',
+  1,1,1,1,1,0,0))
+
+perguntas.append(Pergunta(1,
+  'Qual procedimento PIC deve fazer quando drone esta no automático e mostra qualquer assinatura de não seguir a trajetória de voo automático?',
+  'Deixar drone continuar voo automático.',
+  'Esperar o drone recuperar trajetória do voo.',
+  'Ficar observando.',
+  '.Recuperar controle manual do drone.',
+  4,1,0))
+
+perguntas.append(Pergunta(2,
+  'Q2 – Caso encontre características anormais durante o voo, qual procedimento a ser feito?',
+  'Tirar voo automático e continuar no voo manual.',
+  'Colocar no voo automático.',
+  'Continuar o voo.',
+  '.Devolve-lo a zona de desembarque e pousa-lo',
+  4,1,0))
+
+perguntas.append(Pergunta(3,
+  'Quando houver perda da visão, qual procedimento PIC realiza?',
+  'Continuar voo como se não tivesse perdido de vista.',
+  '.Executar percurso pré-programado para retornar zona de pouso.',
+  'Parar o drone e continuar o voo programado.',
+  'Continuar o voo programado mesmo sem visão.',
+  2,1,0))
+
+perguntas.append(Pergunta(4, 
+  'O que deve ser feito em caso de emergência?',
+  '.Fazer pouso num local livre.',
+  'Estabelecer controle do drone.',
+  'Colocar num programa pré-programado.',
+  'Continuar o voo programado.',
+  1,1,0))
+
+perguntas.append(Pergunta(5, 
+  'Em caso de perda de potência ou falha no motor, não é dever do PIC:',
+  '.Alertar outras pessoas sobre a situação de emergência',
+  'Registrar detalhes do voô para colocar no relatório',
+  'Alertar o pessoal de operações sobre a situação de emergência',
+  'Tentar controlar o UAS para realizar um pouso de emergência em alguma área livre',
+  1,1,1
+  ))
+
 
 
 
 @app.route('/',methods=['GET','POST'])
-def indexo():    
-  k1 = int(session['mod1']) + int(session['mod2']) + int(session['mod3'])
-  sys.stdout.write(str(k1)+"\n")
+def indexo():      
   return app.send_static_file('index.html')
+
+@app.route('/videos', methods=['GET', 'POST'])
+def videos():
+  return app.send_static_file('videos.html')
 
 @app.route('/teste/verifica<modulo>', methods=['POST', 'GET'])
 def verificacao(modulo):
-  k = int(session['mod1']) + int(session['mod2']) + int(session['mod3'])
+  k = int(session['mod1']) + int(session['mod2']) + int(session['mod3']) + int(session['mod4']) + int(session['mod5'])
   sys.stdout.write(str(k)+"\n")
   if(int(modulo) == 1):    
     if(k >= 6):     
@@ -238,6 +286,11 @@ def verificacao(modulo):
     if(int(k)  >= 24):
       if(int(session['certas3']) >= 4):
         return app.send_static_file('jaAprovado.html')
+
+  if(int(modulo)==5):
+    if(int(k)<24):
+      return app.send_static_file('erroModulo.html')
+
   
 
 
@@ -260,6 +313,8 @@ def correcao(questao):
         else:
           if(i<=24):
             session['mod4'] += 1
+          else:
+            session['mod5'] += 1
 
         
       #sys.stdout.write(str(session['mod1'])+"\n")
@@ -294,6 +349,11 @@ def correcao(questao):
           if(str(respUsuario) == str(respCorreta)):
             session['certas4'] +=1 
           session['respondidas4'] += 1
+        else:
+          session['mod5'] += 1
+          if(str(respUsuario) == str(respCorreta)):
+            session['certas5'] += 1
+          session['respondidas5'] +=1
 
 
 
@@ -330,7 +390,7 @@ def kk():
   session.pop('certas4', None)
   session.pop('respondidas4', None)
 
-  session.pop('mod5, None')
+  session.pop('mod5', None)
   session.pop('certas5', None)
   session.pop('respondidas5', None)
 
@@ -489,8 +549,7 @@ def ind():
   #sys.stdout.write(str(i)+"\n")
 
   
-  if (i>=int(len(perguntas))):
-    return app.send_static_file('fim.html')
+  
     
 
   if(i == 6):
@@ -515,11 +574,22 @@ def ind():
       return render_template('refazerModulo.html')
 
   if( i == 24):
-    if(int(session['certas4'] < 4)):
+    if(int(session['certas4']) < 4):
       session['mod4'] = 0
       session['certas4'] = 0
       session['respondidas4'] = 0
       return render_template('refazerModulo.html')
+  
+  if (i == 30):
+    if(int(session['certas5']) < 4):
+      session['mod5'] = 0
+      session['certas5'] = 0
+      session['respondidas5'] = 0
+      return render_template('reafazerModulo.html')
+
+
+  if (i>=int(len(perguntas))):
+    return app.send_static_file('fim.html')
     
 
   if(perguntas[i].tipo == 0):
